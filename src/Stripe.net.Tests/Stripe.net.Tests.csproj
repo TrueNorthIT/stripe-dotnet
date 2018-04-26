@@ -7,6 +7,9 @@
     <PackageId>Stripe.net.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <RuntimeIdentifiers>win</RuntimeIdentifiers>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>TrueNorth.Stripe.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>
